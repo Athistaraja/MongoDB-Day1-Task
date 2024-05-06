@@ -46,7 +46,7 @@ db.products.find({ 'product_material': 'Soft'})
 ```
 db.products.find({ 'product_color': 'indigo', 'product_price': 492.00 })
 ```
-10.**🗑️ Delete the products which product price value are same:**
+10.**🗑️ Delete the products which product price value are same:28**
 ```
  db.products.deleteOne({'product_price':28});
 
