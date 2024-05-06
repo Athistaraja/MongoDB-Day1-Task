@@ -20,7 +20,7 @@
 4.**📈 List the four products which are greater than 500 in price:**
 
    ```
-   db.products.find({ 'product_price': { $gte: 500 } }).limit(4)
+   db.products.find({ 'product_price': { $gt: 500 } }).limit(4)
    ```
 5.**📝 Find the product name and product material of each product:**
   ```
